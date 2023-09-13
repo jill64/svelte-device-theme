@@ -1,12 +1,11 @@
 {
   "compilerOptions": {
-    "checkJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "declaration": true,
-    "moduleResolution": "NodeNext",
-    "module": "NodeNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "outDir": "dist"
   },
   "include": ["src"]
