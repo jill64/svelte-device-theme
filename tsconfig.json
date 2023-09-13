@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "checkJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "declaration": true,
-    "moduleResolution": "NodeNext",
-    "module": "NodeNext",
-    "outDir": "dist"
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "lib": ["ESNext", "DOM"]
   },
   "include": ["src"]
 }
