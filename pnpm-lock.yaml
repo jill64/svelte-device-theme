@@ -19,9 +19,6 @@ devDependencies:
   eslint:
     specifier: 8.49.0
     version: 8.49.0
-  esm-env:
-    specifier: 1.0.0
-    version: 1.0.0
   prettier:
     specifier: 3.0.3
     version: 3.0.3
@@ -529,10 +526,6 @@ packages:
       text-table: 0.2.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /esm-env@1.0.0:
-    resolution: {integrity: sha512-Cf6VksWPsTuW01vU9Mk/3vRue91Zevka5SjyNf3nEpokFRuqt/KjUQoGAwq9qMmhpLTHmXzSIrFRw8zxWzmFBA==}
     dev: true
 
   /espree@9.6.1:

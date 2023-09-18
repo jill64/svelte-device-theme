@@ -1,5 +1,7 @@
 # svelte-device-theme
 
+![github-actions-ci](https://github.com/jill64/svelte-device-theme/actions/workflows/ci.yml/badge.svg)
+
 A simple store that syncs with your device's theme settings
 
 ## Install
