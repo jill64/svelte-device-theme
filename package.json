@@ -31,6 +31,7 @@
   },
   "scripts": {
     "build": "tsc && npx publint",
+    "prepack": "npm run build",
     "lint": "npx prettier --check . && npx eslint",
     "format": "npx prettier --write ."
   },
