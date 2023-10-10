@@ -4,8 +4,8 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "declaration": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "outDir": "dist",
     "lib": ["ESNext", "DOM"]
   },
