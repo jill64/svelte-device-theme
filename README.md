@@ -1,7 +1,6 @@
 # svelte-device-theme
 
 [![npm](https://img.shields.io/npm/v/%40jill64%2Fsvelte-device-theme)](https://npmjs.com/package/@jill64/svelte-device-theme)
-[![github-actions-ci](https://github.com/jill64/svelte-device-theme/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/svelte-device-theme/actions/workflows/ci.yml)
 
 A simple store that syncs with your device's theme settings
 
