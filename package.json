@@ -32,7 +32,7 @@
   "scripts": {
     "build": "tsc && npx publint",
     "prepack": "npm run build",
-    "lint": "npx prettier --check . && npx eslint",
+    "lint": "npx prettier --check . && npx eslint && npx depcheck",
     "format": "npx prettier --write ."
   },
   "peerDependencies": {
