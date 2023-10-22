@@ -39,7 +39,6 @@
     "typescript": "5.2.2"
   },
   "dependencies": {
-    "svelte": "4.2.2",
-    "esm-env": "1.0.0"
+    "svelte": "4.2.2"
   }
 }
