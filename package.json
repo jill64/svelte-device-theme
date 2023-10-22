@@ -1,7 +1,7 @@
 {
   "name": "@jill64/svelte-device-theme",
   "description": "A simple store that syncs with your device's theme settings",
-  "version": "1.0.12",
+  "version": "1.1.0",
   "main": "dist/index.js",
   "type": "module",
   "exports": {
@@ -17,11 +17,6 @@
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
   "bugs": "https://github.com/jill64/svelte-device-theme/issues",
   "homepage": "https://github.com/jill64/svelte-device-theme#readme",
-  "keywords": [
-    "svelte",
-    "theme",
-    "store"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-device-theme.git"
@@ -32,7 +27,7 @@
   "scripts": {
     "build": "tsc && npx publint",
     "prepack": "npm run build",
-    "lint": "npx prettier --check . && npx eslint && npx depcheck",
+    "lint": "npx prettier --check . && npx eslint . && npx depcheck",
     "format": "npx prettier --write ."
   },
   "peerDependencies": {
@@ -44,6 +39,7 @@
     "typescript": "5.2.2"
   },
   "dependencies": {
+    "esm-env": "^1.0.0",
     "svelte": "4.2.2"
   }
 }
