@@ -1,11 +1,10 @@
 import { readable } from 'svelte/store'
+import { BROWSER } from 'esm-env'
 
 export const isDark = readable<boolean | undefined>(
-  typeof window !== 'undefined'
-    ? matchMedia('(prefers-color-scheme: dark)').matches
-    : undefined,
+  BROWSER ? matchMedia('(prefers-color-scheme: dark)').matches : undefined,
   (set) => {
-    if (typeof window !== 'undefined') {
+    if (BROWSER) {
       matchMedia('(prefers-color-scheme: dark)').addEventListener(
         'change',
         (e) => set(e.matches)
