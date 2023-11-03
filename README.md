@@ -6,6 +6,12 @@
 
 🖥️ A simple store that syncs with your device's theme settings
 
+## Install
+
+```sh
+npm i @jill64/svelte-device-theme
+```
+
 <!----- END GHOST DOCS HEADER ----->
 
 ## Usage
