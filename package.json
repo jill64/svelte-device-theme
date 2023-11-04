@@ -11,7 +11,9 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "!*.test.*",
+    "!*.spec.*"
   ],
   "license": "MIT",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
@@ -22,10 +24,10 @@
     "url": "https://github.com/jill64/svelte-device-theme.git"
   },
   "keywords": [
+    "device",
+    "media",
     "svelte",
-    "device-theme",
-    "dark-theme",
-    "store"
+    "theme"
   ],
   "publishConfig": {
     "access": "public"
