@@ -28,6 +28,5 @@ npm i @jill64/svelte-device-theme
 {/if}
 ```
 
-> [!NOTE]
-> `$isDark` is `undefined` on the server.  
+> [!NOTE] > `$isDark` is `undefined` on the server.  
 > If you need full theme management including SSR, please see [@jill64/svelte-dark-theme](https://github.com/jill64/svelte-dark-theme).
