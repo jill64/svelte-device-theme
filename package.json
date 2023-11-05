@@ -1,6 +1,6 @@
 {
   "name": "@jill64/svelte-device-theme",
-  "description": "🖥️ A simple store that syncs with your device's theme settings",
+  "description": "☯ A simple store that syncs with your device's theme settings",
   "version": "1.2.0",
   "main": "dist/index.js",
   "type": "module",
@@ -24,6 +24,7 @@
     "url": "https://github.com/jill64/svelte-device-theme.git"
   },
   "keywords": [
+    "dark-mode",
     "device",
     "media",
     "svelte",
