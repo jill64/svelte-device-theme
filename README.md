@@ -6,7 +6,7 @@
 
 ☯ A simple store that syncs with your device's theme settings
 
-## Install
+## Installation
 
 ```sh
 npm i @jill64/svelte-device-theme
