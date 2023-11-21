@@ -50,6 +50,6 @@
     "typescript": "5.3.2"
   },
   "dependencies": {
-    "esm-env": "1.0.0"
+    "svelte-mq-store": "0.0.1"
   }
 }
