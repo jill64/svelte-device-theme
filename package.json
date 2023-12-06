@@ -50,6 +50,6 @@
     "typescript": "5.3.2"
   },
   "dependencies": {
-    "svelte-mq-store": "1.0.0"
+    "svelte-mq-store": "2.0.0"
   }
 }
