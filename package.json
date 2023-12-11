@@ -48,13 +48,14 @@
   "peerDependencies": {
     "svelte": "^4.0.0"
   },
+  "prettier": "@jill64/prettier-config",
   "devDependencies": {
     "@jill64/eslint-config-ts": "1.0.1",
+    "@jill64/prettier-config": "1.0.1",
     "svelte": "4.2.8",
     "typescript": "5.3.3"
   },
   "dependencies": {
     "svelte-mq-store": "2.1.1"
-  },
-  "prettier": "@jill64/prettier-config"
+  }
 }
