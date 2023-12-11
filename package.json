@@ -16,12 +16,18 @@
     "!*.spec.*"
   ],
   "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
   "bugs": "https://github.com/jill64/svelte-device-theme/issues",
   "homepage": "https://github.com/jill64/svelte-device-theme#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/svelte-device-theme.git"
+    "url": "https://github.com/jill64/svelte-device-theme.git",
+    "image": "https://opengraph.githubassets.com/6c61c69f2d1ef2a3ad06fd2ad885f9daf6a7561f899f8abda2eb9d53d695e5ce/jill64/svelte-device-theme"
   },
   "keywords": [
     "dark-mode",
@@ -51,5 +57,6 @@
   },
   "dependencies": {
     "svelte-mq-store": "2.1.1"
-  }
+  },
+  "prettier": "@jill64/prettier-config"
 }
