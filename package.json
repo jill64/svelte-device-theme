@@ -11,9 +11,7 @@
     }
   },
   "files": [
-    "dist",
-    "!*.test.*",
-    "!*.spec.*"
+    "dist"
   ],
   "license": "MIT",
   "author": {
@@ -56,6 +54,6 @@
     "typescript": "5.3.3"
   },
   "dependencies": {
-    "svelte-mq-store": "2.1.1"
+    "svelte-mq-store": "2.2.0"
   }
 }
