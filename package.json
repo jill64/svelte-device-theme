@@ -54,6 +54,6 @@
     "typescript": "5.3.3"
   },
   "dependencies": {
-    "svelte-mq-store": "2.2.7"
+    "svelte-mq-store": "2.2.8"
   }
 }
