@@ -51,7 +51,7 @@
     "@jill64/eslint-config-ts": "1.1.17",
     "@jill64/prettier-config": "1.0.0",
     "svelte": "4.2.13",
-    "typescript": "5.4.4"
+    "typescript": "5.4.5"
   },
   "dependencies": {
     "svelte-mq-store": "2.2.12"
