@@ -1,7 +1,7 @@
 {
   "name": "@jill64/svelte-device-theme",
   "description": "☯ A simple store that syncs with your device's theme settings",
-  "version": "1.2.18",
+  "version": "1.2.19",
   "main": "dist/index.js",
   "type": "module",
   "exports": {
@@ -54,6 +54,6 @@
     "typescript": "5.4.5"
   },
   "dependencies": {
-    "svelte-mq-store": "2.2.12"
+    "svelte-mq-store": "2.2.13"
   }
 }
