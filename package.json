@@ -1,7 +1,7 @@
 {
   "name": "@jill64/svelte-device-theme",
   "description": "☯ A simple store that syncs with your device's theme settings",
-  "version": "1.2.19",
+  "version": "1.2.20",
   "main": "dist/index.js",
   "type": "module",
   "exports": {
@@ -25,7 +25,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-device-theme.git",
-    "image": "https://opengraph.githubassets.com/3f5abc3185bbfa73778218854b69eb6b557baed8497a521930209cb9a7e588e1/jill64/svelte-device-theme"
+    "image": "https://opengraph.githubassets.com/82e00ec7fd788a0a348e2c548fb2032ccd565dbdc8ccec8a465d4f391fea23dc/jill64/svelte-device-theme"
   },
   "keywords": [
     "dark-mode",
@@ -54,6 +54,6 @@
     "typescript": "5.4.5"
   },
   "dependencies": {
-    "svelte-mq-store": "2.2.13"
+    "svelte-mq-store": "2.2.14"
   }
 }
