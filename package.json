@@ -25,7 +25,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-device-theme.git",
-    "image": "https://opengraph.githubassets.com/526e02135e469118c29c480434f812835d61ef0265bb889c8c9ede1dbd178ed8/jill64/svelte-device-theme"
+    "image": "https://opengraph.githubassets.com/f039ffa35417893def0a78c229f3297f9560bcb9280bc872e46d4bc959eb0b36/jill64/svelte-device-theme"
   },
   "keywords": [
     "dark-mode",
@@ -48,7 +48,7 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-ts": "1.1.25",
+    "@jill64/eslint-config-ts": "1.1.26",
     "@jill64/prettier-config": "1.0.0",
     "svelte": "4.2.18",
     "typescript": "5.4.5"
