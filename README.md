@@ -19,7 +19,7 @@
   import { isDark } from '@jill64/svelte-device-theme'
 </script>
 
-{#if $isDark}
+{#if isDark}
   Device is dark mode
 {:else}
   Device is light mode
