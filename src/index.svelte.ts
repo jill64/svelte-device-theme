@@ -4,9 +4,9 @@ let isDark = listen('(prefers-color-scheme: dark)')
 
 export let is = {
   get dark() {
-    return isDark
+    return isDark.value
   },
   get light() {
-    return !isDark
+    return isDark.value === undefined ? undefined : !isDark.value
   }
 }

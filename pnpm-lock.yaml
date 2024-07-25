@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       svelte-mq-store:
-        specifier: 3.0.0-next.2
-        version: 3.0.0-next.2(svelte@5.0.0-next.197)
+        specifier: 3.0.0-next.3
+        version: 3.0.0-next.3(svelte@5.0.0-next.197)
     devDependencies:
       '@jill64/eslint-config-ts':
         specifier: 1.1.31
@@ -580,8 +580,8 @@ packages:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
 
-  svelte-mq-store@3.0.0-next.2:
-    resolution: {integrity: sha512-61JdZ9GTw6PdIRdvPaY+o24kfRM0gIcNke1ezWlSrBlV0tcI6EjiuI8k0rvztJ1ztCpWodrpcEY4nS9VFf99zQ==}
+  svelte-mq-store@3.0.0-next.3:
+    resolution: {integrity: sha512-TbWv12I4VPBc0LlRLVDMrXG8MR+BdcjUUlZhCJRM/8ccjwYRrPTm284aHRdMjBXLgZF1B1DzH6PQh4v/ZlByRA==}
     peerDependencies:
       svelte: ^5.0.0
 
@@ -1227,7 +1227,7 @@ snapshots:
     dependencies:
       has-flag: 4.0.0
 
-  svelte-mq-store@3.0.0-next.2(svelte@5.0.0-next.197):
+  svelte-mq-store@3.0.0-next.3(svelte@5.0.0-next.197):
     dependencies:
       esm-env: 1.0.0
       svelte: 5.0.0-next.197
