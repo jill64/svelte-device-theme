@@ -1,3 +1,12 @@
 import { listen } from 'svelte-mq-store'
 
-export let isDark = listen('(prefers-color-scheme: dark)')
+let isDark = listen('(prefers-color-scheme: dark)')
+
+export let is = {
+  get dark() {
+    return isDark
+  },
+  get light() {
+    return !isDark
+  }
+}
