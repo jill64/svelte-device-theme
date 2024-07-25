@@ -16,10 +16,10 @@
 
 ```svelte
 <script>
-  import { isDark } from '@jill64/svelte-device-theme'
+  import { is } from '@jill64/svelte-device-theme'
 </script>
 
-{#if isDark}
+{#if is.dark}
   Device is dark mode
 {:else}
   Device is light mode
@@ -27,7 +27,7 @@
 ```
 
 > [!NOTE]  
-> `$isDark` is `undefined` on the server.  
+> `is.dark` is `undefined` on the server.  
 > If you need full theme management including SSR, please see [@jill64/svelte-dark-theme](https://github.com/jill64/svelte-dark-theme).
 
 <!----- BEGIN GHOST DOCS FOOTER ----->
