@@ -24,8 +24,8 @@
   "homepage": "https://github.com/jill64/svelte-device-theme#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/svelte-device-theme.git",
-    "image": "https://opengraph.githubassets.com/d0b56521d4467bfba239cae58525017eebe974228cff5885318c582f3186a17f/jill64/svelte-device-theme"
+    "url": "git+https://github.com/jill64/svelte-device-theme.git",
+    "image": "https://opengraph.githubassets.com/997e44f4be2458ba744ad8cd03ed89fa8d8f44bf9b6cdd3a7ad96384e9e1e7da/jill64/svelte-device-theme"
   },
   "keywords": [
     "dark-mode",
