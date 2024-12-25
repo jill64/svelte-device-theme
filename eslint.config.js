@@ -1,4 +1,4 @@
-import { tsConfig } from '@jill64/eslint-config-ts'
+import { svelteTsConfig } from '@jill64/eslint-config-svelte'
 
 /** @type {import('@jill64/eslint-config-ts').FlatConfig[]} */
-export default tsConfig()
+export default svelteTsConfig()

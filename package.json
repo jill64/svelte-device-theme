@@ -1,13 +1,14 @@
 {
   "name": "@jill64/svelte-device-theme",
   "description": "☯ A simple store that syncs with your device's theme settings",
-  "version": "1.2.28",
-  "main": "dist/index.js",
+  "version": "2.0.0",
+  "main": "dist/index.svelte.js",
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
+      "types": "./dist/index.svelte.d.ts",
+      "svelte": "./dist/index.svelte.js",
+      "default": "./dist/index.svelte.js"
     }
   },
   "files": [
@@ -25,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-device-theme.git",
-    "image": "https://opengraph.githubassets.com/dc84f72d611b4ecb0f61cd558a2c5cfef7f721b14c175c0f47ee5d0ae8d6d0cf/jill64/svelte-device-theme"
+    "image": "https://opengraph.githubassets.com/122706b429212e842499c0d444733fd80dc2b743e4e8809be95ce48165ff741b/jill64/svelte-device-theme"
   },
   "keywords": [
     "dark-mode",
@@ -38,20 +39,33 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc && npx publint",
+    "dev": "vite dev",
+    "build": "vite build && npm run package",
+    "preview": "npm run build && vite preview",
+    "package": "svelte-kit sync && npx @sveltejs/package && npx publint",
     "prepack": "npm run build",
-    "lint": "npx eslint . && npx depcheck",
-    "format": "npx prettier --write ."
+    "lint": "npx eslint .",
+    "format": "npx prettier -w .",
+    "test": "playwright test"
   },
   "peerDependencies": {
-    "svelte": "^4.0.0 || ^5.0.0"
+    "svelte": "^5.0.0"
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-ts": "1.1.58",
+    "@jill64/eslint-config-svelte": "1.3.28",
+    "@jill64/npm-demo-layout": "1.0.249",
+    "@jill64/playwright-config": "2.4.2",
     "@jill64/prettier-config": "1.0.0",
+    "@jill64/sentry-sveltekit-cloudflare": "2.0.1",
+    "@jill64/universal-sanitizer": "1.3.5",
+    "@playwright/test": "1.49.1",
+    "@sveltejs/adapter-cloudflare": "4.9.0",
+    "@sveltejs/kit": "2.15.0",
     "svelte": "5.16.0",
-    "typescript": "5.7.2"
+    "typescript": "5.7.2",
+    "vite": "6.0.5",
+    "@sveltejs/vite-plugin-svelte": "5.0.3"
   },
   "dependencies": {
     "svelte-mq-store": "3.0.0"
