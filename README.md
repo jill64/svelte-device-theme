@@ -12,6 +12,8 @@
 
 <!----- END GHOST DOCS HEADER ----->
 
+## [Demo](https://svelte-device-theme.jill64.dev)
+
 ## Usage
 
 ```svelte
