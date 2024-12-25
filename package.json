@@ -40,8 +40,9 @@
   },
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build && npx publint",
+    "build": "vite build && npm run package",
     "preview": "npm run build && vite preview",
+    "package": "svelte-kit sync && npx @sveltejs/package && npx publint",
     "prepack": "npm run build",
     "lint": "npx eslint .",
     "format": "npx prettier -w .",
