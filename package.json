@@ -2,12 +2,12 @@
   "name": "@jill64/svelte-device-theme",
   "description": "☯ A simple store that syncs with your device's theme settings",
   "version": "1.2.28",
-  "main": "dist/index.js",
+  "main": "dist/index.svelte.js",
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
+      "types": "./dist/index.svelte.d.ts",
+      "default": "./dist/index.svelte.js"
     }
   },
   "files": [
@@ -41,10 +41,10 @@
     "build": "tsc && npx publint",
     "prepack": "npm run build",
     "lint": "npx eslint . && npx depcheck",
-    "format": "npx prettier --write ."
+    "format": "npx prettier -w ."
   },
   "peerDependencies": {
-    "svelte": "^4.0.0 || ^5.0.0"
+    "svelte": "^5.0.0"
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {

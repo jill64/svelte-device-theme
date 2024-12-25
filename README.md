@@ -16,10 +16,10 @@
 
 ```svelte
 <script>
-  import { isDark } from '@jill64/svelte-device-theme'
+  import { is } from '@jill64/svelte-device-theme'
 </script>
 
-{#if $isDark}
+{#if is.dark}
   Device is dark mode
 {:else}
   Device is light mode
