@@ -26,11 +26,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-device-theme.git",
-    "image": "https://opengraph.githubassets.com/b449d67d8ff6b222bb12ae78011482a9db550e4f60ede4ca820c0091d47f5c7a/jill64/svelte-device-theme"
+    "image": "https://opengraph.githubassets.com/392881cc32e1ea59b7afcdc2f969995ca1932053ea20b863d256d68b52c777bd/jill64/svelte-device-theme"
   },
   "keywords": [
     "dark-mode",
     "device",
+    "library",
     "media",
     "svelte",
     "theme"
