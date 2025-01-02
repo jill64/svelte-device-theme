@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-device-theme.git",
-    "image": "https://opengraph.githubassets.com/90095c67200cc148f431e9b59c9c2818e3d135a3200e4e5f546ccaa45cd2a294/jill64/svelte-device-theme"
+    "image": "https://opengraph.githubassets.com/28c46287976a2a92b3615bcd1492393824115303c0f59fb2e033b6ada127ce33/jill64/svelte-device-theme"
   },
   "keywords": [
     "dark-mode",
@@ -63,7 +63,7 @@
     "@playwright/test": "1.49.1",
     "@sveltejs/adapter-cloudflare": "5.0.0",
     "@sveltejs/kit": "2.15.1",
-    "svelte": "5.16.0",
+    "svelte": "5.16.1",
     "typescript": "5.7.2",
     "vite": "6.0.6",
     "@sveltejs/vite-plugin-svelte": "5.0.3"
