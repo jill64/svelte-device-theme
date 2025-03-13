@@ -45,7 +45,7 @@
     "preview": "bun run build && vite preview",
     "package": "svelte-kit sync && bunx @sveltejs/package && bunx publint",
     "prepack": "bun run build",
-    "lint": "bunx eslint .",
+    "lint": "bun run build && bunx eslint .",
     "format": "bunx prettier -w .",
     "test": "playwright test"
   },
