@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-device-theme.git",
-    "image": "https://opengraph.githubassets.com/44e22a26424a580bce411ef2816e191c2cce0c8faca833875d148c1f1571fee8/jill64/svelte-device-theme"
+    "image": "https://opengraph.githubassets.com/c7c1d8f69250d5d3e6fa2fba54ed6a1ec69676238d883e163d02fdb74a129f52/jill64/svelte-device-theme"
   },
   "keywords": [
     "dark-mode",
@@ -45,7 +45,7 @@
     "preview": "bun run build && vite preview",
     "package": "svelte-kit sync && bunx @sveltejs/package && bunx publint",
     "prepack": "bun run build",
-    "lint": "bunx eslint .",
+    "lint": "bun run build && bunx eslint .",
     "format": "bunx prettier -w .",
     "test": "playwright test"
   },
