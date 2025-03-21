@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-device-theme.git",
-    "image": "https://opengraph.githubassets.com/628831801922997b61e1f4aa63f5510010652c8acc36914f23e99b61957cec3e/jill64/svelte-device-theme"
+    "image": "https://opengraph.githubassets.com/eff804983d2c3a59963fd28f6b18206ab053f8a1f635af9d403ed854f504bbd2/jill64/svelte-device-theme"
   },
   "keywords": [
     "dark-mode",
@@ -62,7 +62,7 @@
     "@jill64/universal-sanitizer": "1.4.2",
     "@playwright/test": "1.51.1",
     "@sveltejs/adapter-cloudflare": "6.0.0",
-    "@sveltejs/kit": "2.20.1",
+    "@sveltejs/kit": "2.20.2",
     "svelte": "5.23.2",
     "typescript": "5.8.2",
     "vite": "6.2.2",
