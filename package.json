@@ -1,7 +1,7 @@
 {
   "name": "@jill64/svelte-device-theme",
   "description": "☯ A simple store that syncs with your device's theme settings",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "dist/index.svelte.js",
   "type": "module",
   "exports": {
