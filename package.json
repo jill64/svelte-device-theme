@@ -1,7 +1,7 @@
 {
   "name": "@jill64/svelte-device-theme",
   "description": "☯ A simple store that syncs with your device's theme settings",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "dist/index.svelte.js",
   "type": "module",
   "exports": {
@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-device-theme.git",
-    "image": "https://opengraph.githubassets.com/52342c2752fbd17c109ef01240aabc4aef9875d6afba845d673ef2009db574a9/jill64/svelte-device-theme"
+    "image": "https://opengraph.githubassets.com/4b508ebe97bd495bb6d2c205bba2d3ae10537102f7c11a1188a71e0f2a65dd83/jill64/svelte-device-theme"
   },
   "keywords": [
     "dark-mode",
@@ -62,7 +62,7 @@
     "@jill64/universal-sanitizer": "1.4.3",
     "@playwright/test": "1.51.1",
     "@sveltejs/adapter-cloudflare": "6.0.1",
-    "@sveltejs/kit": "2.20.5",
+    "@sveltejs/kit": "2.20.6",
     "svelte": "5.25.2",
     "typescript": "5.8.3",
     "vite": "6.2.6",
